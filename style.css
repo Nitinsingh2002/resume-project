@@ -1,0 +1,642 @@
+*{
+    box-sizing: border-box;
+   
+    
+}
+body{
+    margin: 0%;
+    
+}
+body::-webkit-scrollbar {
+    display: none;
+  }
+
+
+/* header body */
+
+
+
+
+
+#header-body {
+    height: 70vh;
+    background-image: url(pexels-veeterzy-303383.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    background-attachment: fixed;
+
+    padding: 2%;
+
+
+}
+.socialicons{
+    margin-top: 60px;
+}
+
+
+/* Navigation baar  */
+
+
+.nav-list {
+
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    font-size: 1.4rem;
+
+
+
+}
+
+.nav-list li {
+    display: inline;
+
+    margin-left: 20px;
+    margin-right: 20px;
+
+
+
+}
+
+.nav-list li a {
+
+
+
+
+
+    text-decoration: none;
+    color: white;
+    transition: color 0.5s, border-bottom 5s;
+
+    /* for time taken to change the fcolor  */
+
+
+}
+
+.nav-list li a:hover {
+    color: grey;
+
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+
+
+#name {
+    color: white;
+    margin-top: 20vh;
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+
+}
+
+.image {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.shivm:hover {
+    color: red;
+    font-size: 1.5rem;
+    /* for whwn we click on social icons some color around it */
+}
+
+#ni{
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+
+
+
+
+/* about section */
+section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+}
+
+
+#about {
+    height: auto;
+    width: 100%;
+}
+
+#myimage {
+
+    height: 14rem;
+    width: 14rem;
+    margin: auto;
+
+    margin-top: -110px;
+    /* margin auto is used to center the image  */
+    position: relative;
+
+
+}
+
+
+#myimage img {
+    height: 90%;
+    width: 90%;
+    border-radius: 50%;
+    /* border radius is used to round the image*/
+
+    border: 3px solid white;
+
+}
+
+#para {
+    text-align: justify;
+    /*to style paragraph  with n space left */
+   margin-bottom: 20px;
+   
+    font-size: 1.2rem;
+    width: 70%;
+    font-family: sans-serif;
+
+
+}
+
+
+
+
+
+
+/* skill-section start*/
+
+.skill-heading {
+    width: auto;
+    font-weight: 600;
+    margin: 10px auto;
+    padding: 20px 10px 10px;
+}
+
+.skill-heading span {
+    font-size: 28px;
+    color: blue;
+    padding-top: 10px;
+    margin-right: 0.5rem;
+
+}
+
+
+
+
+
+
+
+
+
+.skill-display {
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 65%;
+    justify-content: space-around;
+    margin-bottom: 50px;
+
+
+
+    /* to  create  equal distance between skill indicator */
+
+
+}
+
+.skill-progress {
+
+    height: 1.7rem;
+    width: 10rem;
+    border-radius: 20px;
+    margin-top: 30px;
+    background-color: grey;
+    margin-bottom: 30px;
+    margin-left: 50px;
+}
+
+.skill-name {
+    color: white;
+    font-size: large;
+    padding-top: 5px;
+    text-align: center;
+
+}
+
+
+#eightyfivepercent {
+    width: 85%;
+    height: inherit;
+    border-radius: 20px 0px 0px 20px;
+    background-color: blue;
+}
+
+#one {
+    width: 80%;
+    height: inherit;
+    border-radius: 20px 0px 0px 20px;
+    background-color: red;
+
+}
+
+#two {
+
+    width: 75%;
+    height: inherit;
+    border-radius: 20px 0px 0px 20px;
+    background-color: rgb(20, 86, 128);
+
+}
+
+#three {
+    width: 90%;
+    height: inherit;
+    border-radius: 20px 0px 0px 20px;
+    background-color: rgb(12, 53, 149);
+}
+
+#four {
+    width: 75%;
+    height: inherit;
+    border-radius: 20px 0px 0px 20px;
+    background-color: royalblue;
+}
+
+#five {
+
+
+    width: 65%;
+    height: inherit;
+    border-radius: 20px 0px 0px 20px;
+    background-color: rgb(0, 255, 21);
+
+
+}
+
+#skill {
+    background-color:lightgray;
+ 
+
+}
+
+/* skillsection end*/
+/*work-experice section start*/
+
+.work-heading {
+    font-size: 32px;
+    color: blue;
+    padding-top: 10px;
+
+    font-weight: 600;
+  
+
+
+    margin-top: 1%;
+}
+
+.work-experice {
+    width: 100%;
+    background-color: white;
+   
+}
+
+.parent-container {
+    position: relative;
+    width: 75%;
+    margin-top: 2%;
+   
+}
+
+.experince-container {
+    position: relative;
+    width: 40%;
+    left: 5%;
+    min-height: 150px;
+  
+    margin: 15px;
+    margin-bottom: 10%;
+    
+}
+
+.experince-container:nth-child(2n) {
+    left: 53%;
+}
+
+
+
+.experince-divider {
+    height: 75%;
+    border: 2px dashed rgb(109, 109, 125);
+    position: absolute;
+    left: 51%;
+    top: 10%;
+    width: 0%;
+}
+
+.flight {
+    position: sticky;
+    top: 12%;
+    transform: rotate(90deg);
+    color: blue;
+    /*to rotate the flight icon */
+    
+}
+.degi{
+    color: blue;
+   
+}
+.name{
+    color: orange;
+   margin-top: -4%;
+}
+.month{
+    color: rgba(65, 64, 64, 0.555);
+    margin-top: -3%;
+}
+.para{
+    text-align: justify;
+}
+/*work-experice section end */
+.education{
+    width: 100%;
+    background-color:lightgrey;
+}
+
+  
+
+
+@media only screen and (max-width:600px) {
+   
+    .experince-divider{
+        left: 5%;
+        margin-right: 5%;
+    }
+    .parent-container {
+       
+     left: 5%;
+
+       width: 100%;
+        
+    }
+
+    .experince-container:nth-child(2n) {
+        left: 5%;
+    }
+}
+
+
+
+
+
+
+/*  form section start */
+
+#contact {
+    background-image: linear-gradient(to top right, #2857a4, #403066);
+    color: white;
+    font-size: 1rem;
+    height: 100vh;
+    
+  }
+  
+  #contact .section-heading {
+    color: white !important;
+    width: 90%;
+
+    display: flex;
+    
+    justify-content: center;
+    margin-bottom: 3%;
+
+  }
+  .contactspan{
+    margin-left: 1%;
+  }
+  .section-heading{
+    margin-top: 2%;
+    font-size: 2rem;
+  }
+  
+  #contact .social-links i:hover {
+    transform: scale(1.25);
+    transition: 0.3s;
+    text-shadow: 0px 0px 20px #a59f9f;
+  }
+  
+  .contact-container {
+    width: 90%;
+  
+    margin-bottom: 4rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 1.25em;
+  }
+  
+  .contact-container .contact-form-container, .contact-container .address-container {
+    flex-basis: 40%;
+    overflow-x: hidden;
+  }
+  
+  .contact-container .contact-form-container .input-field {
+    width: 100%;
+    margin-bottom: 2rem;
+    padding-left: 1rem;
+    border: none;
+    height: 2.5rem;
+    font-size: 1em;
+    color: white;
+    border-bottom: 3px solid white;
+    background-color: #0000;
+  }
+  
+  .contact-container .contact-form-container textarea.input-field {
+    height: 4rem;
+    resize: none;
+  }
+  
+  .contact-container .contact-form-container .input-field:focus {
+    outline: none;
+    border-bottom: 3px solid #bebebe;
+  }
+  
+  .contact-container .contact-form-container .input-field::placeholder {
+    color: #bebebe;
+  }
+  
+  .contact-container .contact-form-container #submit {
+    display: block;
+    margin: 0 auto;
+    font-size: 0.75em;
+    padding: 0.5rem 1rem;
+  }
+  
+  .contact-container .contact-form-container #submit:hover {
+    color: #1262b3;
+  }
+.submit{
+      height: 35px;
+      width: 160px;
+      display: flex;
+border: 3px solid white;
+      margin: auto;
+      background-color: transparent;
+      font-family: sans-serif;
+
+     
+    
+
+}
+.submit a{
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    font-size: 1rem;   
+    border-radius: 20%;
+    color: white;
+    
+}
+.submit:hover{
+    background-color: white;
+    
+}
+.submit a:hover{
+    color: blue;
+}
+.x{
+    margin-left: 4px;
+}
+.ss{
+    margin-top: 10px;
+    
+}
+.sss{
+    margin-left: 6px;
+}
+.paraadress{
+    text-align: justify;
+    width: 100%;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+#contact{
+    height: 100vh !important;
+}
+    
+ .contact-container{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+  
+ }
+
+
+
+ .contact-form-container{
+    display: flex;
+  height: 45vh !important;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    
+ }
+ .formcontact{
+    height: 95%;
+ }
+ .formcontact div{
+    height: 22%;
+ }
+ .formcontact button{
+    margin-top: 10%;
+    height: 15%;
+ }
+ .address-container{
+    display: flex;
+    height: 50vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+ }
+
+ 
+ 
+
+ .education{
+    margin:0%;
+    width: 90%;
+    padding: 0%;
+    background-color: white;
+ }
+
+ .parent-container{
+    width: 100%;
+ }
+ .work-experice{
+    margin:0%;
+    width: 85%;
+    padding: 0%;
+ }
+
+
+ 
+.skill-display{
+    margin-right: 0%;
+    width: 90%;
+}
+#skill{
+
+    margin:0%;
+    width: 102%;
+    padding: 0%;
+}
+#about{
+    margin:0%;
+    width: 102%;
+}
+#header-body{
+    margin: 0%;
+    width: 102%;
+}
+body{
+   width: 95%;
+   margin-bottom: 0%;
+}
+.parent-container{
+    margin-left: 15%;
+}
+.nav-list li a{
+    font-size: medium;
+    margin: 1px;
+   
+}
+.nav-list li{
+    margin: 1%;
+}
+#para{
+    font-size: medium;
+}
+.parent-container{
+    font-size: medium;
+}
+.paraadress{
+    font-size: medium;
+}
+  }
+
+
